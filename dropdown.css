@@ -1,0 +1,33 @@
+.dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: 50;
+    /* font-style: oblique; */
+}
+
+.dropdown-menu li {
+    background-color: rgb(226, 218, 218);
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background: #5cabff;
+}
+
+.dropdown-menu.clicked {
+    display: contents;
+}
+
+.dropdown-link {
+    display: list-item;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
